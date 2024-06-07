@@ -1,0 +1,14 @@
+galaxy_info:
+  author: Fabio Crispim
+  description: Role used with Turbonomic and Event Driven Ansible to open tickets on Jira
+  company: Scaleup Consultoria and Turbonomic Inc., an IBM Company
+  license: GPL-2.0-or-later
+  min_ansible_version: 2.12.0
+  platforms:
+    - name: Fedora
+      versions:
+        - all
+  galaxy_tags:
+    - turbonomic
+    - eda
+dependencies: []

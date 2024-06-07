@@ -1,0 +1,19 @@
+---
+- name: Create an issue on Jira using Ansible
+  community.general.jira:
+    uri: 'https://sulamerica.atlassian.net/'
+    #Pode ser utilizado token
+    #username: '{{ user }}'
+    #password: '{{ pass }}' ou '{{ token }}'
+    project: CTT
+    operation: create
+    summary: Integração Turbonomic x Ansible x Jira
+    description: Created using Ansible {{ instance_type }} {{ instance_region}}
+    issuetype: Task
+  args:
+    fields:
+        customfield_13225: "test"
+        customfield_12931: {"value": "Test"}
+  register: issue
+
+
