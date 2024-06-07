@@ -1,9 +1,12 @@
 ## Forked by Fabio Crispim
 ## Scaleup Consultoria - April 2024
-
-# Ansible Collection: turbonomic_eda
+## Ansible Collection: turbonomic_eda
 
 This IBM Turbonomic Ansible Collection provides examples that can be used to automate Turbonomic cloud scaling decisions using Event Driven Ansible (EDA). Users are able to quickly realize the value of Turbonomic Hybrid Cloud optimization decisions by leveraging the flexible and powerful automation capabilities of Event Driven Ansible.
+
+
+## Adicionado módulo para criação de Tickets no Jira
+
 
 ## Included in the Collection
 - Module to create a webhook workflow within your Turbonomic Instance for use in Automation Policies
