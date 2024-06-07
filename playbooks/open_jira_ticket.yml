@@ -1,4 +1,4 @@
-- name: Resize EC2 Instance from Turbonomic Recommendation via Event Driven Ansible
+- name: Open ticket on Jire using Turbonomic Recommendation via Event Driven Ansible
   hosts: localhost
   gather_facts: false
   roles:
